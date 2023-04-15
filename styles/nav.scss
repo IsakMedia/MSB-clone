@@ -1,0 +1,31 @@
+/* CHEAT SHEET
+$heading
+$paragraph
+$t-lg
+$t-ml
+$t-md
+$t-sm
+$red
+$purple
+$grey
+$bg-grey
+$bg-lt-grey
+$bg-white
+*/
+
+.main-nav {
+    background-color: $purple;
+    height: 10vh;
+    color: $bg-white;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    div {
+        display: flex;
+        padding: 0 0.5rem 0 0.5rem;
+        gap: 0.5rem;
+        align-items: center;
+    }
+}
