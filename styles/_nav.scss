@@ -29,3 +29,16 @@ $bg-white
         align-items: center;
     }
 }
+
+
+.fold-out {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: auto;
+    background-color: $bg-lt-grey;
+
+    .aspect {
+        aspect-ratio: 16 / 9;
+    }
+}
