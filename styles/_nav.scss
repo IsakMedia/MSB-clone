@@ -14,6 +14,7 @@ $bg-white
 */
 
 .main-nav {
+    z-index: 100;
     background-color: $purple;
     height: 10vh;
     color: $bg-white;
@@ -32,13 +33,45 @@ $bg-white
 
 
 .fold-out {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    margin: auto;
+    z-index: 10;
+    // display: grid;
+    // grid-template-columns: 4fr 1fr;
+    // grid-template-rows: auto;
     background-color: $bg-lt-grey;
+    width: 100%;
+    margin: 0;
 
-    .aspect {
-        aspect-ratio: 16 / 9;
+
+    ul {
+        padding: 0;
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5em;
+            margin: 0;
+            border: 0.5px solid #CACAC5;
+        }
+
+        a {
+
+            font-family: $heading;
+            font-size: $t-sm;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:active {
+            text-decoration: underline;
+        }
+
+        .menbtn {
+            margin: 0.3rem;
+            border: none;
+            background-color: transparent;
+        }
+
     }
+
 }
