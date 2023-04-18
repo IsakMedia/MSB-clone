@@ -1,5 +1,5 @@
 .header-img {
-    background-image: url("/media/treepic-sm.jpg");
+    background-image: url("/public/treepic-sm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 60%;
@@ -20,5 +20,20 @@
             font-size: $t-lg;
             color: $bg-white;
         }
+
     }
+}
+
+.teaser {
+    width: 100%;
+    background-color: $bg-grey;
+
+
+    h2 {
+        font-family: $heading;
+        font-size: $t-ml;
+        color: rgb(19, 19, 19);
+
+    }
+
 }
