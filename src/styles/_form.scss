@@ -1,0 +1,32 @@
+.form-part {
+    margin-top: 2rem;
+
+    .form-group {
+        margin-top: 1.5rem;
+    }
+
+
+    .map-field {
+        margin-top: 1.5rem;
+
+        p {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    .map-box {
+        position: relative;
+
+    }
+
+    .map-box::before {
+        content: "";
+        background-color: $purple;
+        width: 0.6rem;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+}

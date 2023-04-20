@@ -1,7 +1,8 @@
-/*TYPOGRAPHY */
-$heading: "poppins", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,400;1,600&family=Poppins:wght@300;600;700&display=swap%27');
+
+$heading: "Poppins", sans-serif;
 $paragraph: "Open sans", sans-serif;
-$test-text: "comic sans ms";
+
 
 /*Sizes, typescale*/
 /* 1.200 minor third, t-lg: type large*/
@@ -14,6 +15,7 @@ $t-sm: 1rem;
 $red: #CC0000;
 $purple: #822757;
 $grey: #6F6E67;
+$black: rgb(0, 0, 0);
 
 /*background-colors*/
 $bg-grey: #4A4944;

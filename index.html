@@ -72,17 +72,105 @@
                 </div>
             </div>
 
+            <div class="container">
+
             <section class="teaser">
                 <h2>Akut ärende?</h2>
-                <i class="fa-regular fa-arrow-right" role="button"></i>
+                <div class="purp-arrow">
+                <a href="#jour"> <i class="fa-solid fa-arrow-right" role="button"></i></a>
+                </div>
+            </section>
+
+            <section class="ingress-box">
+                <p>Misstänker du att det finns risk att
+                    ett träd kommer bete sig obror?
+                    tjalla på han
+                </p>
+                <div class="tree-graphic">
+                <img src="/treegroup.svg" class="tree-group">
+                <img src="/person-lgt-red-stand.svg" class="bck-person">
+                <img src="/person-red-look.svg" class="for-person">
+                </div>
 
             </section>
+
+
+            <section class="form-part" id="formSection">
+
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputKommun">Välj kommun</label>
+                        <select id="inputKommun" class="form-control">
+                          <option selected disabled>Välj kommun...</option>
+                          <option>Stockholm</option>
+                          <option>Göteborg</option>
+                          <option>Malmö</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputStad">Välj stad</label>
+                        <select id="inputStad" class="form-control">
+                          <option selected disabled>Välj stad...</option>
+                          <option>Stockholm</option>
+                          <option>Göteborg</option>
+                          <option>Malmö</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputAdress">Adress</label>
+                        <input type="text" class="form-control" id="inputAdress" placeholder="Adress">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPostnr">Postnr</label>
+                        <input type="text" class="form-control" id="inputPostnr" placeholder="Postnr">
+                      </div>
+                    </div>
+
+                    <div class="map-field">
+                        <p>Eller visa på kartan</p>
+                        <div class="map-box">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.7158854152276!2d13.018564275854631!3d55.60695820321626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a3f905cc4b55%3A0xea8a9d6d092d25d8!2sMedieinstitutet%20Malm%C3%B6!5e0!3m2!1ssv!2sse!4v1681993564240!5m2!1ssv!2sse" 
+                        height="100%;" width="100%;" style="border:0;" 
+                        allowfullscreen="" loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputBeskrivning">Skriv utförligt om ärendet</label>
+                      <textarea class="form-control" id="inputBeskrivning" rows="4" placeholder="Skriv här..."></textarea>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputAnmalare">Anmälare*</label>
+                        <input type="text" class="form-control" id="inputAnmalare" placeholder="Anmälare" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputKontakt">Kontakt-upg*</label>
+                        <input type="text" class="form-control" id="inputKontakt" placeholder="Kontakt-upg" required>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Skicka</button>
+                  </form>
+                  
+            </section>
+
+
+            <section class="Jour-box" id="jour">
+
+            </section>
+
+            </div>
 
 
         </main>
 
     
         
-    <script src="script.ts"></script>
+    <script src="/src/script.ts"></script>
 </body>
 </html>
