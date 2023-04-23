@@ -1,12 +1,18 @@
 .form-part {
     margin-top: 2rem;
 
+
     .form-group {
         margin-top: 1.5rem;
+
 
         .anm {
             margin-top: 0.8rem;
         }
+    }
+
+    .form-group:first-child {
+        margin-top:0.5rem;
     }
 
 
