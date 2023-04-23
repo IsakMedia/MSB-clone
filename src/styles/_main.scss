@@ -67,9 +67,9 @@
     display: flex;
     position: relative;
 
-    p {
+    h3 {
         font-family: $heading;
-        font-size: $t-sm;
+        font-size: $t-md;
     }
 
     .tree-graphic {
@@ -146,6 +146,23 @@
 }
 
 
-.social-media {
-    margin: 1rem 0 1rem 0;
+.social-media{
+    margin-top:1.5rem;
+     h4 {
+        font-size: $t-sm;
+     }
+}
+
+
+.social-btn {
+    background-color: $purple;
+    border-radius: 2rem;
+    padding:0.5rem 1.1rem;
+    margin:0.5rem;
+    text-align: center;
+    
+    a {
+        text-decoration: none;
+        color:white;
+    }
 }
