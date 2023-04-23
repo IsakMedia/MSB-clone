@@ -168,3 +168,64 @@
         color:white;
     }
 }
+
+
+
+@media only screen and (min-width: 578px) {
+
+    
+
+        .bck-person {
+            
+            top: 6rem  !important;
+            left: 6rem  !important;
+
+        }
+
+        .for-person {
+            top: 6rem  !important;
+            right: 5rem  !important;
+        }
+
+    }
+
+
+
+    @media only screen and (min-width: 768px) {
+
+    
+
+        .bck-person {
+            
+            top: 8rem  !important;
+            left: 6rem  !important;
+
+        }
+
+        .for-person {
+            top: 8rem  !important;
+            right: 6rem  !important;
+        }
+
+    }
+
+
+    @media only screen and (min-width: 1000px) {
+
+    
+
+        .bck-person {
+            
+            top: 14rem  !important;
+            left: 10rem  !important;
+
+        }
+
+        .for-person {
+            top: 15rem  !important;
+            right: 10rem  !important;
+        }
+
+    }
+    
+
