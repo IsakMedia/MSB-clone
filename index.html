@@ -21,7 +21,6 @@
       src="https://kit.fontawesome.com/a7c2755132.js"
       crossorigin="anonymous"
     ></script>
-    <script src="/src/script.ts"></script>
   </head>
   <body>
     <header>
@@ -65,12 +64,13 @@
               <i class="fa-solid fa-chevron-down"></i>
             </button>
           </li>
-          <li class="fold-cld">
-            <a href="meme.html" class="foldlink">Meme</a>
-            <button class="menbtn">
-              <i class="fa-solid fa-chevron-down"></i>
-            </button>
-          </li>
+          <a href="meme.html" class="foldlink">
+            <li class="fold-cld">
+              Meme
+              <button class="menbtn">
+                <i class="fa-solid fa-chevron-down"></i>
+              </button></li
+          ></a>
         </ul>
       </div>
     </header>
@@ -218,10 +218,23 @@
               </div>
 
               <div class="col-12 col-md-6">
-                <button type="submit" class="send-btn">Skicka</button>
+                <button type="submit" class="send-btn" id="memeBtn">
+                  Skicka
+                </button>
               </div>
             </form>
           </section>
+
+          <div class="hide meme-box" id="memeBox">
+            <div class="meme-box-container d-flex">
+              <img src="/public/easter_egg_trad.jpg" />
+              <i
+                class="fa fa-times dismiss-btn"
+                id="dismissBtn"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
 
           <div class="row">
             <section class="Jour-section col-12 col-md-6" id="jour">
