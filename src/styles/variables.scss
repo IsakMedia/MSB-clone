@@ -17,6 +17,8 @@ $purple: #822757;
 $grey: #6F6E67;
 $black: rgb(0, 0, 0);
 
+$lgt-purple: adjust-color($purple, $lightness: 40%);
+
 /*background-colors*/
 $bg-grey: #4A4944;
 $bg-lt-grey: #E4E4E1;

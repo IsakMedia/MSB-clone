@@ -3,6 +3,10 @@
 
     .form-group {
         margin-top: 1.5rem;
+
+        .anm {
+            margin-top: 0.8rem;
+        }
     }
 
 
@@ -16,6 +20,8 @@
 
     .map-box {
         position: relative;
+        outline: solid 2px $bg-lt-grey;
+        outline-offset: -2px;
 
     }
 
@@ -28,5 +34,22 @@
         top: 0;
         left: 0;
 
+    }
+
+    .send-btn {
+        margin-top: 0.5rem;
+        color: white;
+        background-color: $purple;
+        border: solid 1px $lgt-purple;
+        border-radius: 2rem;
+        padding: 0.3rem 1rem 0.3rem 1rem;
+    }
+
+    .upload {
+        margin-top: 1.5rem;
+
+        p {
+            margin-bottom: 0.5rem;
+        }
     }
 }

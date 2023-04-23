@@ -1,9 +1,9 @@
 .header-img {
-    background-image: url("/treepic-sm.jpg");
+    background-image: url("/aborists_working.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 60%;
-    height: 10rem;
+    background-position: 50%;
+    height: 12rem;
 
 }
 
@@ -99,5 +99,53 @@
         }
 
     }
+}
 
+.Jour-section {
+    padding-right: 0;
+    margin-top: 3rem;
+}
+
+.jour-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: $bg-grey;
+    width: 100%;
+    padding: 1rem;
+
+    h3 {
+        color: $bg-white;
+        font-weight: bold;
+    }
+
+    p {
+        color: $bg-white;
+    }
+
+    .phone::before {
+        content: '\f3ce';
+        font-family: "Font Awesome 6 Free";
+        padding-right: 0.2rem;
+
+    }
+
+    .mail::before {
+        content: '\f0e0';
+        font-family: "Font Awesome 6 Free";
+        padding-right: 0.2rem;
+    }
+
+    .jour-pic {
+        border-radius: 50%;
+        width: 5em;
+        height: 5em;
+        border: 2px solid white;
+        align-self: center;
+
+    }
+}
+
+
+.social-media {
+    margin: 1rem 0 1rem 0;
 }
