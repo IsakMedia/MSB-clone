@@ -1,3 +1,5 @@
+// export * from './script'
+
 
 const openEl = document.querySelector("#menuOpen")
 const closeEl = document.querySelector("#menuClose")

@@ -2,7 +2,7 @@
   "name": "msb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/IsakMedia/MSB-clone#readme",
   "devDependencies": {
     "sass": "^1.62.0",
+    "scss": "^0.2.4",
     "typescript": "^4.9.5",
     "vite": "^4.1.0"
   },
