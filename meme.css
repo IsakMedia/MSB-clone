@@ -25,16 +25,14 @@ body {
   background-color: hotpink;
 }
 
-.container {
+.background {
   background-image: url('/public/background.gif');
   background-repeat: repeat;
 }
 
 .meme-vid {
   margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 h1 {
